@@ -20,7 +20,7 @@
 		</div>
 		<div>&nbsp;</div>
 		<div id="ctrl">
-			<form name="picker" method="post">
+			<form id="picker" name="picker" method="post">
 				<input type="submit" value="Envoyer" />
 			</form>
 		</div>
@@ -29,7 +29,7 @@
 	
 		<script type="text/javascript" src="js/jquery.thumbpicker.js"></script>
 		<script type="text/javascript">
-			$('.thumbpicker-frame').thumbpicker({"form":"picker"});
+			$('.thumbpicker-frame').thumbpicker({"form":"#picker"});
 		</script>
 	</body>
 </html>
